@@ -16,3 +16,6 @@ This is a high level set of tasks. I'll update as it becomes clearer as to what 
 - [ ] Write some testing against the app
 - [ ] Add a new feature or two.
 
+## References 
+
+ - [SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui)
