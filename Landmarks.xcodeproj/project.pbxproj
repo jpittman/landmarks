@@ -31,6 +31,9 @@
 		81CBBF6A26A60A2E0007992E /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF6626A60A2E0007992E /* HikeGraph.swift */; };
 		81CBBF6B26A60A2E0007992E /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF6726A60A2E0007992E /* HikeDetail.swift */; };
 		81CBBF6C26A60A2E0007992E /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF6826A60A2E0007992E /* HikeView.swift */; };
+		81CBBF6F26A62F6B0007992E /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF6E26A62F6B0007992E /* CategoryHome.swift */; };
+		81CBBF7126A6354D0007992E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7026A6354D0007992E /* CategoryRow.swift */; };
+		81CBBF7326A637500007992E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7226A637500007992E /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		81CBBF6626A60A2E0007992E /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		81CBBF6726A60A2E0007992E /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		81CBBF6826A60A2E0007992E /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		81CBBF6E26A62F6B0007992E /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		81CBBF7026A6354D0007992E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		81CBBF7226A637500007992E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 		813C0B8A268E9AB0002D50E1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				81CBBF6D26A62F440007992E /* Categories */,
 				81CBBF5F26A6002C0007992E /* Badges */,
 				81CBBF532697868E0007992E /* Helpers */,
 				81CBBF6426A60A2E0007992E /* Hikes */,
@@ -135,9 +142,9 @@
 		813C0B8C268E9AC9002D50E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81CBBF6226A607E50007992E /* Hike.swift */,
 				813C0B86268E87B2002D50E1 /* Landmark.swift */,
 				813C0B88268E89D6002D50E1 /* ModelData.swift */,
-				81CBBF6226A607E50007992E /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +190,16 @@
 				81CBBF6826A60A2E0007992E /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		81CBBF6D26A62F440007992E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				81CBBF6E26A62F6B0007992E /* CategoryHome.swift */,
+				81CBBF7026A6354D0007992E /* CategoryRow.swift */,
+				81CBBF7226A637500007992E /* CategoryItem.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,13 +273,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CBBF7126A6354D0007992E /* CategoryRow.swift in Sources */,
 				813C0B74268E452E002D50E1 /* ContentView.swift in Sources */,
+				81CBBF6F26A62F6B0007992E /* CategoryHome.swift in Sources */,
 				81CBBF6A26A60A2E0007992E /* HikeGraph.swift in Sources */,
 				81CBBF5E26A5FDF70007992E /* Badge.swift in Sources */,
 				813C0B83268E4F5D002D50E1 /* MapView.swift in Sources */,
 				81CBBF6926A60A2E0007992E /* GraphCapsule.swift in Sources */,
 				81CBBF6326A607E50007992E /* Hike.swift in Sources */,
 				813C0B72268E452E002D50E1 /* LandmarksApp.swift in Sources */,
+				81CBBF7326A637500007992E /* CategoryItem.swift in Sources */,
 				81CBBF6B26A60A2E0007992E /* HikeDetail.swift in Sources */,
 				81CBBF52269785420007992E /* FavoriteButton.swift in Sources */,
 				81CBBF562697D1D20007992E /* HexagonParameters.swift in Sources */,
