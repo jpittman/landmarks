@@ -34,6 +34,7 @@
 		81CBBF6F26A62F6B0007992E /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF6E26A62F6B0007992E /* CategoryHome.swift */; };
 		81CBBF7126A6354D0007992E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7026A6354D0007992E /* CategoryRow.swift */; };
 		81CBBF7326A637500007992E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7226A637500007992E /* CategoryItem.swift */; };
+		81CBBF7526A645B30007992E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7426A645B30007992E /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		81CBBF6E26A62F6B0007992E /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		81CBBF7026A6354D0007992E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		81CBBF7226A637500007992E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		81CBBF7426A645B30007992E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				81CBBF6226A607E50007992E /* Hike.swift */,
 				813C0B86268E87B2002D50E1 /* Landmark.swift */,
 				813C0B88268E89D6002D50E1 /* ModelData.swift */,
+				81CBBF7426A645B30007992E /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CBBF7126A6354D0007992E /* CategoryRow.swift in Sources */,
+				81CBBF7526A645B30007992E /* Profile.swift in Sources */,
 				813C0B74268E452E002D50E1 /* ContentView.swift in Sources */,
 				81CBBF6F26A62F6B0007992E /* CategoryHome.swift in Sources */,
 				81CBBF6A26A60A2E0007992E /* HikeGraph.swift in Sources */,
