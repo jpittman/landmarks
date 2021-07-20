@@ -35,6 +35,9 @@
 		81CBBF7126A6354D0007992E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7026A6354D0007992E /* CategoryRow.swift */; };
 		81CBBF7326A637500007992E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7226A637500007992E /* CategoryItem.swift */; };
 		81CBBF7526A645B30007992E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7426A645B30007992E /* Profile.swift */; };
+		81CBBF7826A646A10007992E /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7726A646A10007992E /* ProfileHost.swift */; };
+		81CBBF7B26A6477C0007992E /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7A26A6477C0007992E /* ProfileSummary.swift */; };
+		81CBBF7F26A649300007992E /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBBF7E26A649300007992E /* HikeBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		81CBBF7026A6354D0007992E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		81CBBF7226A637500007992E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		81CBBF7426A645B30007992E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		81CBBF7726A646A10007992E /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		81CBBF7A26A6477C0007992E /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		81CBBF7E26A649300007992E /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 				81CBBF532697868E0007992E /* Helpers */,
 				81CBBF6426A60A2E0007992E /* Hikes */,
 				81CBBF54269786A40007992E /* Landmarks */,
+				81CBBF7626A646860007992E /* Profiles */,
 				813C0B73268E452E002D50E1 /* ContentView.swift */,
 			);
 			path = Views;
@@ -180,6 +187,7 @@
 				81CBBF592697DAF80007992E /* BadgeSymbol.swift */,
 				81CBBF5B26A5FC370007992E /* RotatedBadgeSymbol.swift */,
 				81CBBF5D26A5FDF70007992E /* Badge.swift */,
+				81CBBF7E26A649300007992E /* HikeBadge.swift */,
 			);
 			path = Badges;
 			sourceTree = "<group>";
@@ -203,6 +211,15 @@
 				81CBBF7226A637500007992E /* CategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		81CBBF7626A646860007992E /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				81CBBF7726A646A10007992E /* ProfileHost.swift */,
+				81CBBF7A26A6477C0007992E /* ProfileSummary.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +305,9 @@
 				813C0B72268E452E002D50E1 /* LandmarksApp.swift in Sources */,
 				81CBBF7326A637500007992E /* CategoryItem.swift in Sources */,
 				81CBBF6B26A60A2E0007992E /* HikeDetail.swift in Sources */,
+				81CBBF7B26A6477C0007992E /* ProfileSummary.swift in Sources */,
 				81CBBF52269785420007992E /* FavoriteButton.swift in Sources */,
+				81CBBF7826A646A10007992E /* ProfileHost.swift in Sources */,
 				81CBBF562697D1D20007992E /* HexagonParameters.swift in Sources */,
 				81CBBF5C26A5FC370007992E /* RotatedBadgeSymbol.swift in Sources */,
 				81CBBF5A2697DAF80007992E /* BadgeSymbol.swift in Sources */,
@@ -296,6 +315,7 @@
 				81CBBF6C26A60A2E0007992E /* HikeView.swift in Sources */,
 				813C0B92268E9F0F002D50E1 /* LandmarkDetail.swift in Sources */,
 				81CBBF582697D3AA0007992E /* BadgeBackground.swift in Sources */,
+				81CBBF7F26A649300007992E /* HikeBadge.swift in Sources */,
 				813C0B87268E87B2002D50E1 /* Landmark.swift in Sources */,
 				813C0B8E268E9B27002D50E1 /* LandmarkRow.swift in Sources */,
 				813C0B89268E89D6002D50E1 /* ModelData.swift in Sources */,
