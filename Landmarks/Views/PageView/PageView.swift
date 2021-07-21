@@ -10,9 +10,28 @@ import SwiftUI
 struct PageView<Page: View>: View {
     
     var pages: [Page]
+    @State private var currentPage = 0
     
     var body: some View {
-        PageViewController(pages: pages)
+        VStack {
+            PageViewController(pages: pages, currentPage: $currentPage)
+            Text("Current Page: \(currentPage)")
+        }
+        
+        // An experiment from the tutorial.
+//        VStack {
+//            PageViewController(pages: pages, currentPage: $currentPage)
+//            Divider()
+//            Button(action: {
+//                currentPage += 1
+//                // Preview crashes without the check below.
+//                if currentPage >= pages.count {
+//                    currentPage = 0
+//                }
+//            }) {
+//                Text("Next")
+//            }
+//        }
     }
 }
 
