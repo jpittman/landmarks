@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81054DA526BB095B00FD6B56 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81054DA426BB095B00FD6B56 /* LandmarkDetail.swift */; };
 		813C0B72268E452E002D50E1 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C0B71268E452E002D50E1 /* LandmarksApp.swift */; };
 		813C0B74268E452E002D50E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C0B73268E452E002D50E1 /* ContentView.swift */; };
 		813C0B76268E4533002D50E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813C0B75268E4533002D50E1 /* Assets.xcassets */; };
@@ -109,6 +110,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		81054DA426BB095B00FD6B56 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		813C0B6E268E452E002D50E1 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813C0B71268E452E002D50E1 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		813C0B73268E452E002D50E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 		815683C526A8CF06008DC0F6 /* WatchLandmarks Extension */ = {
 			isa = PBXGroup;
 			children = (
+				81054DA426BB095B00FD6B56 /* LandmarkDetail.swift */,
 				815683C826A8CF06008DC0F6 /* ContentView.swift */,
 				815683CA26A8CF06008DC0F6 /* NotificationController.swift */,
 				815683CC26A8CF06008DC0F6 /* NotificationView.swift */,
@@ -543,6 +546,7 @@
 				815683ED26A8D28D008DC0F6 /* CircleImage.swift in Sources */,
 				815683E726A8D28D008DC0F6 /* LandmarksApp.swift in Sources */,
 				815683E426A8D28D008DC0F6 /* LandmarkRow.swift in Sources */,
+				81054DA526BB095B00FD6B56 /* LandmarkDetail.swift in Sources */,
 				815683EA26A8D28D008DC0F6 /* LandmarksList.swift in Sources */,
 				815683EC26A8D28D008DC0F6 /* Hike.swift in Sources */,
 				815683E326A8D28D008DC0F6 /* MapView.swift in Sources */,
